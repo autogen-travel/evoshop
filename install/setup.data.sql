@@ -6,8 +6,7 @@ CREATE TABLE `{PREFIX}evoshop_carts` (
   `cart` text NOT NULL,
   `ip` varchar(255) NOT NULL,
   `last_change_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  PRIMARY KEY (`id`),
-  KEY `id` (`id`)
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
